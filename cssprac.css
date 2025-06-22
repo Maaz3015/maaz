@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(heart.jpg); /* Replace with your image path */
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Image covers the entire div */
+    background-position: center; /* Center the image */
+    position: relative; /* To position text inside */
+}
+
+.text {
+    color: red; /* Text color */
+    font-size: 40px;
+    position: absolute; /* Position over the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to perfect center */
+    text-shadow: 2px 2px 8px black; /* Optional: for better readability */
+}
+
+    <div class="background">
+        <h1 class="text">I LOVE YOU NASHRA</h1>
+    </div>
+</body>
+</html>
